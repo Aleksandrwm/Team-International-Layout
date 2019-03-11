@@ -1,0 +1,415 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    background-color: #76c7c0;
+    width: 1500px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 113px;
+    height: 21px;
+    margin: 28px 0 31px 172px;
+}
+
+.logo2 {
+    width: 75px;
+    height: 13px;
+    margin: 45px 0 31px 5px;
+}
+
+.navbar li {
+    display: inline;
+    font-family: OpenSans;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15.6px;
+    text-align: left;
+
+}
+
+.navbar {
+    margin: 25px 563px 25px 0;
+}
+
+img#bottom {
+    position: absolute;
+    top: 15px;
+}
+
+img#top {
+    position: relative;
+    left: 10px;
+}
+
+li.two {
+    margin-left: 30px;
+}
+
+.line {
+    position: absolute;
+    top: 70px;
+}
+
+img#red_bottom {
+    position: absolute;
+    top: 15px;
+}
+
+img#red_top {
+    position: relative;
+    left: 27px;
+    margin-right: 54px;
+}
+
+img#small_arrow {
+    position: relative;
+    left: 15px;
+}
+
+img#poisk {
+    position: relative;
+    bottom: 15px;
+    left: 563px;
+}
+
+img#spisok {
+    position: absolute;
+    left: 600px;
+    top: 64px;
+}
+
+.slider_fon {
+    background-color: #7f8c8c;
+    width: 1500px;
+    height: 500px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+img#arrow_list {
+    position: relative;
+    top: 60px;
+    right: 122px;
+}
+
+img#list_item {
+    position: absolute;
+    top: 84px;
+    right: 483px;
+}
+
+img#rectangle {
+    position: absolute;
+    top: 75px;
+    right: 469px;
+}
+
+img#arrow_list_2 {
+    position: absolute;
+    top: 117px;
+    right: 640px;
+}
+
+img#list_item2 {
+    position: absolute;
+    top: 115px;
+    right: 483px;
+}
+
+img#rectangle_2 {
+    position: absolute;
+    top: 108px;
+    left: 605px;
+}
+
+img#rectangle_3 {
+    position: absolute;
+    top: 142px;
+    right: 469px;
+}
+
+img#arrow_list_3 {
+    position: absolute;
+    top: 152px;
+    right: 640px;
+}
+
+img#list_item3 {
+    position: absolute;
+    top: 150px;
+    right: 483px;
+}
+
+img#rectangle_4 {
+    position: absolute;
+    margin-top: 162px;
+    margin-left: 577px;
+}
+
+img#vestibulum {
+    position: relative;
+    margin-top: 167px;
+    margin-left: 589px;
+}
+
+.text {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 470px;
+    height: 71px;
+    margin-top: 10px;
+    margin-left: 515px;
+}
+
+.text p {
+    font-family: OpenSans;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: center;
+    width: 394px;
+    height: 41px;
+    padding: 13px 38px;
+}
+
+.arrow_left {
+    float: left;
+    position: relative;
+    top: -62px;
+
+}
+
+.arrow_right {
+    float: right;
+    position: relative;
+    bottom: 65px;
+}
+
+.arrow_sl {
+    position: relative;
+    z-index: 1;
+    top: -44px;
+    left: -38px;
+}
+
+.arrow_sr {
+    float: right;
+    z-index: 1;
+    position: relative;
+    top: -44px;
+    right: -38px;
+}
+
+.service {
+    width: 1500px;
+    height: 590px;
+    background-color: #f3f3f3;
+}
+
+.lines {
+    text-align: center;
+}
+
+.lines li {
+    display: inline;
+}
+
+.top {
+    width: 1170px;
+    height: 100px;
+    background-color: #ececec;
+    margin: 24px 167px 50px 163px;
+}
+
+.some_top {
+    width: 354px;
+    height: 30px;
+    color: #7f8c8c;
+    font-family: "Open Sans - Semibold";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 26px 788px 44px 28px;
+
+}
+
+.some_text {
+    width: 829px;
+    height: 13px;
+    color: #777777;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.8px;
+    margin: -23px 314px 24px 27px;
+
+}
+
+.top_button {
+    width: 200px;
+    height: 50px;
+    background-color: #e8645a;
+    color: #fff;
+    margin: -63px 35px 26px 935px;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+}
+
+.block_1 {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 270px;
+    height: 310px;
+    margin: 50px 0 0 163px;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+.block_1 p {
+    text-align: center;
+    color: #777777;
+}
+
+.hand {
+    margin: 48px 0 0 109px;
+}
+
+.read_more {
+    margin: 0 0 0 38px;
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: #e8645a;
+    color: #fff;
+    top: 283px;
+}
+
+.block_2 {
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    width: 270px;
+    height: 310px;
+    display: inline-block;
+    float: left;
+    margin: 50px 0 0 30px;
+    position: relative;
+}
+
+.block_2 p {
+    text-align: center;
+    color: #777777;
+}
+
+.key {
+    margin: 52px 0 0 104px;
+}
+
+.read_more2 {
+    margin: 0 0 0 38px;
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: #62b9b0;
+    color: #fff;
+    top: 283px;
+}
+
+.flag {
+    margin: 52px 0 0 107px;
+}
+
+.sosud {
+    margin: 53px 0 0 109px;
+}
+
+.why {
+    background-color: #ececec;
+    width: 1500px;
+    height: 1082px;
+}
+
+.modus {
+    font-family: OpenSans;
+    color: #e1524b;
+    font-size: 40px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.modus_text {
+    font-family: OpenSans;
+    color: #777777;
+    font-size: 13px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 20.8px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.browser_left {
+    position: relative;
+    left: 163px;
+    margin-top: 127px;
+}
+
+.browser_center {
+    position: absolute;
+    left: 463px;
+    margin-top: 67px;
+}
+
+.browser_right {
+    position: relative;
+    left: 590px;
+    margin-top: 127px;
+}
+
+.progress {
+    margin: 58px 0 0 164px;
+
+}
+
+div.progress p,
+li {
+    color: #7f8c8c;
+}
+
+.choose {
+    margin-left: -45px;
+
+}
+
+.choose li {
+    list-style-type: none;
+    background: url(image/red_arrow.png)no-repeat;
+    padding-left: 12px;
+}
+
+.progress_image {
+    margin-left: 485px;
+    width: 530px;
+}
